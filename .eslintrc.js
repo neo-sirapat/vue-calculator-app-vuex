@@ -27,7 +27,10 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // default is false
     "no-eval": ["error", {"allowIndirect": true}], 
-    'comma-dangle': 'off'
+	'comma-dangle': 'off',
+	"vue/no-parsing-error": ["error", {
+		"invalid-first-character-of-tag-name": false,
+	  }]
 
   }
 }

@@ -3,7 +3,7 @@
       <div style='float:right;margin-right:50px'>{{ output }}</div>
       <br>
       <button @click='addNumber("1")'>1</button>
-      <button @click='addNumber("2")'>2</button>
+      <button @click='addNumber("2")'>4</button>
       <button @click='addNumber("3")'>3</button>
       <button @click='addOperator(" + ")'>+</button>
       <button @click='addOperator(" - ")'>-</button>
